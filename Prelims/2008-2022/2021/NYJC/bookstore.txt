@@ -1,0 +1,4 @@
+Northanger Abbey,13.99,Physical,178,
+War and Peace,17.49,Physical,432,
+Computer Programs,20.99,Virtual,,https://mybookstore.com/dJHtFy
+Data Science,14.99,Virtual,,https://mybookstore.com/fJynJk

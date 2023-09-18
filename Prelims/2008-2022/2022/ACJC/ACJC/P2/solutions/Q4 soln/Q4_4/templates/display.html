@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<table>
+		<tr>
+			<th>Book ID</th>
+			<th>Title</th>
+			<th>Price</th>
+			<th>Number of copies</th>
+		</tr>
+			{%for item in infor %}
+				<tr>
+					<td>{{item}}</td>
+					<td>{{infor[item][0]}}</td>
+					<td>{{infor[item][1]}}</td>
+					<td>{{infor[item][2]}}</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

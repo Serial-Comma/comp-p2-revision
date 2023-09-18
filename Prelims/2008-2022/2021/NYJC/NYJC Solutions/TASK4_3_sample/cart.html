@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Task 4.3 Shopping cart</title>
+    </head>
+    <body>
+        <h1>Available Books</h1>
+        <table>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+            {% for book in booklist %}
+            <tr>
+                <td>{{ book[0] }}</td>
+                <td>{{ book[1] }}</td>
+                <td>{{ book[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <h1>Add Book</h1>
+        <form>
+        <label>ID of book to add:</label>
+        <input type="text" name="bookid">
+        <input type="submit" value="Add Book">
+        </form>
+        <h1>Cart Contents</h1>
+        <table>
+            {% for book in cart.items %}
+            <tr>
+                <td>{{ book.id }}</td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.price() }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td></td>
+                <td><b>Total</b></td>
+                <td><b>${{ cart.total_price() }}</b></td>
+            </tr>
+        </table>
+    </body>
+</html>
