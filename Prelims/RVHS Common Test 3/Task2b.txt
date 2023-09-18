@@ -1,0 +1,10 @@
+1-You arrive at the jungle and start walking. You come across a fork in the road.,2-Take the left path,3-Take the right path
+2-You take the left path and come across a river.,4-Try to swim across,5-Look for a bridge
+3-You take the right path and come across a cave.,6-Enter the cave,9-Keep walking
+4-You try to swim across the river but get swept away by the current. You wake up on the shore with nothing but your clothes. You have lost all of your supplies.,1-Start Over,0-Give Up
+5-You find a bridge and cross it safely.,9-You see a portal and you walk into it,3-Go back to take the right path
+6-You enter the cave and find yourself in a dark room. You see two doors.,7-Take the left door,8-Take the right door
+7-You take the left door and find yourself in a room with a treasure chest. Congratulations! You have found the treasure!,1-Start Over,0-Leave Game
+8-You take the right door and find yourself in a room with a monster's back facing you.,7-Close the door quietly and take the left door,10-Kick the monster real hard
+9-Your adventure ends with no excitment.,1-Start Over,0-Give Up
+10-You kick the monster hard and the monster kicked you back harder. You died.,1-Start Over,0-Give Up

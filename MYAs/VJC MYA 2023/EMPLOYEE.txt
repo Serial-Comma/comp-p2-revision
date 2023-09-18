@@ -1,0 +1,13 @@
+EmployeeID,Employee_name,Home_address
+E101,Emy laurent,107 Jurong Road
+E102,Jain Singh,10 Johor Way
+E103,Jeremy Sentoso,107 Jurong Road
+E104,John McMallen,107 Jln Kampung Baru
+E105,Kowk Li Shin,19 Johor Way
+E106,Nancy Santi,123 Pantai Street
+E107,Paul Smith,22 Bukit Ridge
+E108,Peter Ho,22 Bukit Ridge
+E109,Putri Bte Mohamed,12 Raffles Road
+E110,Reza Ernamwati,19 Johor Way
+E111,Yao Chen,123 Pantai Street
+E112,Zhou Li,19 Bencoleen Lane

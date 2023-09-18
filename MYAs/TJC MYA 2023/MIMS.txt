@@ -1,0 +1,15 @@
+24,Anand,anand@students.edu.sg,20210105,20230519
+11,Beng,beng@students.edu.sg,20210419,20230618
+53,Charlie,charlie@students.edu.sg,20210608,20230701
+46,Xavier,xavier@students.edu.sg,20211203,20230610
+20,Yong,yong@students.edu.sg,20210212,20230530
+9,Zed,zed@students.edu.sg,20210730,20230704
+72,Tom,tom@students.edu.sg,20210820,20230621
+12,Dick,dick@students.edu.sg,20210331,20230608
+18,Harry,harry@students.edu.sg,20210401,2023605
+1,Heng,heng@students.edu.sg,20210311,20230504
+27,Ong,ong@students.edu.sg,20211102,20230607
+33,Huat,huat@students.edu.sg,20210226,20230506
+6,Com,com@students.edu.sg,20211123,20230405
+38,Pu,pu@students.edu.sg,20210319,20230407
+40,Ting,ting@students.edu.sg,20211111,20230409

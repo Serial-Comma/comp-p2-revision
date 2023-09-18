@@ -1,0 +1,5 @@
+DepartmentID,Department_name,Location,Manager
+D201,Operations,10 Western Plaza,E101
+D202,Human resource,10 Western Plaza,E103
+D203,Sales,107 Jurong Road,E108
+D204,Accounting,107 Jurong Road,E107
