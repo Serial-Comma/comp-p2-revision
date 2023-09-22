@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>Ticket page</head>
+        <a href="test.html">test</a>
+    </head>
+    <body>
+        
+        <table border="1px">
+            <th>Date</th>
+            <th>Day of Week</th>
+            <th>Unit Price</th>
+            <th>Available Quantity</th>
+            {% for i in lst %}
+            <tr>
+            <td>{{i[0]}}</td>
+            <td>{{i[1]}}</td>
+            <td>{{i[2]}}</td>
+            <td>{{i[4]}}</td>
+            </tr>
+            {% endfor %}
+            
+            
+        </table>
+        
+        <form action="submit2", enctype="text/plain", method="GET">
+            <p>Month (MM):</p><input type="text" name="MM">
+            <p>Day (DD):</p><input type="text" name="DD">
+            <p>Quantity of tickets:</p><input type="text" name="Quantity">
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
