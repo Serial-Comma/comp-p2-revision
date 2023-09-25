@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Taxi Rental
+        </title>
+        <h1>Taxi Rental</h1>
+    </head>
+    <body>
+
+        <div class="box" style="border: 1px solid black; padding: 10px;">
+        <form enctype="multipart/form-data"action="rental" method="POST">
+            <p>Details:</p>
+            <p>Driver ID:<input type="text" name="DriverID"></p>
+            <p>Driver Name: {{name}}</p>
+            <p>Date of Rental:<input type="date" name="Date"></p>
+            <p>Vehicle:</p>
+            <select name="Vehicle">
+            {% for i in lst %}
+            <p><option value="{{licenselist[loop.index0]}}">{{i}}</p>
+            {% endfor %}
+            </select>
+            <br>
+            <input type="submit">
+
+        </form>
+        </div>
+
+    </body>
+</html>
